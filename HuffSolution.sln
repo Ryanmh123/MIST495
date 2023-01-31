@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffLibrary", "HuffLibrary\HuffLibrary.csproj", "{FF378E7D-707D-4FA3-825E-DB74ACB0F572}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffLibrary", "HuffLibrary\HuffLibrary.csproj", "{FF378E7D-707D-4FA3-825E-DB74ACB0F572}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffTest", "HuffTest\HuffTest.csproj", "{C66D73AD-0C1C-451A-B6D7-A14A4EFFBB15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffTest", "HuffTest\HuffTest.csproj", "{C66D73AD-0C1C-451A-B6D7-A14A4EFFBB15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffConsoleApp", "Recursion\HuffConsoleApp.csproj", "{AD0F24B7-FBD3-4AC0-B1AC-754A782CD383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffConsoleApp", "Recursion\HuffConsoleApp.csproj", "{AD0F24B7-FBD3-4AC0-B1AC-754A782CD383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffMauiApp", "HuffMauiApp\HuffMauiApp.csproj", "{ECE928FE-5365-4416-B95E-0366D04A3DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerOfHanoi", "TowerOfHanoi\TowerOfHanoi.csproj", "{F2666753-7C83-41A4-82F2-30D88C0C2A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,16 @@ Global
 		{AD0F24B7-FBD3-4AC0-B1AC-754A782CD383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD0F24B7-FBD3-4AC0-B1AC-754A782CD383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD0F24B7-FBD3-4AC0-B1AC-754A782CD383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE928FE-5365-4416-B95E-0366D04A3DEC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F2666753-7C83-41A4-82F2-30D88C0C2A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2666753-7C83-41A4-82F2-30D88C0C2A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2666753-7C83-41A4-82F2-30D88C0C2A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2666753-7C83-41A4-82F2-30D88C0C2A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
